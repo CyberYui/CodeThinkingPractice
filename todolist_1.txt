@@ -1,0 +1,4 @@
+Go to school|remember get to school at 9am|True
+Go to The Church|Remember to pray in community's church before 9pm|False
+Feed Mars|Feed Mars at 12 o'clock & 18pm|False
+Clean the yard|Remember clean the yard after school and get home|False

@@ -4,10 +4,10 @@
 
 ## 练习列表
 
-1. [计算器](./01_calculator/README.md)
-2. [猜数字游戏](./02_guess_number/README.md)
-3. [密码生成器](./03_password_generator/README.md)
-4. [待办事项管理器](./04_todo_manager/README.md)
+1. [计算器](./01_calculator/README.md) ✅ 已完成
+2. [猜数字游戏](./02_guess_number/README.md) ✅ 已完成
+3. [密码生成器](./03_password_generator/README.md) ✅ 已完成
+4. [待办事项管理器](./04_todo_manager/README.md) ✅ 已完成
 5. [日记本](./05_diary/README.md)
 6. [文件整理器](./06_file_organizer/README.md)
 7. [CSV数据统计](./07_csv_stats/README.md)
