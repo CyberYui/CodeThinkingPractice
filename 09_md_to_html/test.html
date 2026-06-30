@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test.md</title>
+</head>
+<body>
+<h1>标题一</h1>
+<h2>标题二</h2>
+<p>普通段落，带<strong>加粗</strong>文字。</p>
+<p>日常开发中推荐使用 <strong>uv</strong> 管理 Python 环境，搭配 <em>VS Code Pylint</em> 做代码校验；<span style="color:#2277cc"><code>~/.local/share/uv/python/3.11</code></span> 是当前主力解释器。若出现 <code>subprocess.Popen</code> 启动报错，先执行 <code>proxyreset</code> 清空代理变量，再从干净终端 <code>code .</code> 重启编辑器，即可规避环境变量污染引发的 Linting 故障。</p>
+<ul>
+<li>列表项1，普通列表</li>
+</ul>
+<h2>本地多Python环境资产对照表</h2>
+<table>
+<tr><td>环境归属</td><td>Python版本</td><td>存放路径前缀</td><td>使用软件</td></tr>
+<tr><td>uv托管</td><td>3.11.15</td><td>~/.local/share/uv/python</td><td>VS Code Pylint、本地项目</td></tr>
+<tr><td>Homebrew全局</td><td>3.14.6</td><td>/opt/homebrew/opt/python@3.14</td><td>终端默认python3、brew脚本</td></tr>
+<tr><td>Miniconda</td><td>3.13.13</td><td>/opt/homebrew/Caskroom/miniconda</td><td>OpenClaw、数据脚本</td></tr>
+<tr><td>macOS系统</td><td>3.9.6</td><td>/usr/bin/python3</td><td>Xcode、系统底层编译</td></tr>
+<tr><td>uv可选下载</td><td>3.15.0b2</td><td>无本地实体文件</td><td>仅预缓存版本，未安装</td></tr>
+</table>
+<ul>
+<li>列表项2，多级无序列表</li>
+</ul>
+<h2>Hermes Agent 安全运维操作清单</h2>
+<ul>
+<li>后台进程管理</li>
+<ul>
+<li>停止网关：<code>hermes gateway stop</code></li>
+<li>卸载开机自启：<code>hermes service uninstall</code></li>
+</ul>
+<li>QQ Bot 消息权限控制</li>
+<ul>
+<li>配对审批模式：陌生人私聊需终端放行</li>
+<li>仅白名单OpenID：手动录入允许访问的QQ账号</li>
+</ul>
+<li>LLM模型配置</li>
+<ul>
+<li>DeepSeek V4-Pro 推理模型，开启高力度思考链</li>
+<li>密钥独立存储于 <code>~/.hermes/.env</code></li>
+</ul>
+<li>目录隔离规范</li>
+<ul>
+<li>禁止执行 <code>hermes claw cleanup</code>（会破坏OpenClaw）</li>
+<li>关闭自动扫描OpenClaw目录消除迁移弹窗</li>
+</ul>
+<li>缓存磁盘清理</li>
+<ul>
+<li>扫描占用：<code>hermes disk-cleanup scan</code></li>
+<li>一键清空图片/音频临时缓存</li>
+</ul></ul>
+<p><a href="https://github.com">链接</a></p>
+<p>python practice.py test.md</p>
+</body>
+</html>
